@@ -1,0 +1,44 @@
+size of char        is 01 bytes.
+size of short       is 02 bytes.
+size of int         is 04 bytes.
+size of long        is 04 bytes.
+size of long long   is 08 bytes.
+size of float       is 04 bytes.
+size of double      is 08 bytes.
+size of long double is 16 bytes.
+size of myStruct    is 64 bytes.
+
+size of void*     is 8 bytes.
+size of char*     is 8 bytes.
+size of short*    is 8 bytes.
+size of int*      is 8 bytes.
+size of long*     is 8 bytes.
+size of float*    is 8 bytes.
+size of double*   is 8 bytes.
+size of myStruct* is 8 bytes.
+
+address of *i is 00000000005E9F90
+address of *d is 00000000005E9FB0
+address of *s is 00000000004877C0
+
+
+*(p+0) = 1 
+*(p+1) = 2 
+*(p+2) = 3 
+
+*(p+0) = 0.100000 
+*(p+1) = 0.200000 
+*(p+2) = 0.300000 
+
+ (p+0)->i = 1 
+ (p+1)->i = 2 
+ (p+2)->i = 3 
+
+address of pp[0] is 00000000005E9F90
+address of pp[1] is 00000000005E9FB0
+address of pp[2] is 00000000004877C0
+
+*(pp[1]+0) = 0.100000 
+*(pp[1]+1) = 0.200000 
+*(pp[1]+2) = 0.300000 
+Done ...
